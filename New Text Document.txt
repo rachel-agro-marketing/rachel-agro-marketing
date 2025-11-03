@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Services — Rachel Agro Marketing</title>
+  <meta name="description" content="Rachel Agro Marketing offers HDPE, PP, PP-R, CPVC pipes and industrial pumps with installation and maintenance services." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 15px 0;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a.active, nav a:hover {
+      color: #00bfff;
+    }
+
+    main {
+      width: 90%;
+      margin: 30px auto;
+    }
+
+    .page-intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .page-intro h1 {
+      color: #003366;
+      font-size: 2rem;
+    }
+
+    .service-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .service:hover {
+      transform: translateY(-5px);
+    }
+
+    .service h3 {
+      color: #003366;
+    }
+
+    .gallery {
+      margin-top: 50px;
+    }
+
+    .gallery h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    .footer-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+      gap: 20px;
+    }
+
+    .footer-logo {
+      height: 50px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      border-top: 1px solid #ffffff33;
+      margin-top: 15px;
+      padding-top: 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html"><img src="logo.png" alt="Rachel Agro Marketing" class="logo"></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <h1>Our Services</h1>
+      <p>We provide complete industrial piping and pumping solutions — from supply to installation and maintenance.</p>
+    </section>
+
+    <section class="service-list">
+      <article class="service">
+        <h3>HDPE, PP & PP-R Piping Solutions</h3>
+        <p>High-performance piping for process lines, chemical handling, and industrial utilities.</p>
+      </article>
+
+      <article class="service">
+        <h3>CPVC Pipes & Fittings</h3>
+        <p>Reliable piping for chemical resistance and hot water applications in industry.</p>
+      </article>
+
+      <article class="service">
+        <h3>Industrial Pumps</h3>
+        <p>Durable centrifugal and process pumps suited for manufacturing, chemical, and pharma plants.</p>
+      </article>
+
+      <article class="service">
+        <h3>Installation & Maintenance</h3>
+        <p>Expert installation, on-site supervision, and long-term maintenance support.</p>
+      </article>
+    </section>
+
+    <section class="gallery">
+      <h2>Product Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="product1.jpg" alt="PP-R Pipes"></div>
+        <div class="gallery-item"><img src="product2.jpg" alt="HDPE Pipes"></div>
+        <div class="gallery-item"><img src="product3.jpg" alt="Industrial Pump"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <img src="logo.png" alt="Rachel Agro Marketing" class="footer-logo" />
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Phone / WhatsApp: 9406651926 / 9977306982 / 7999972376</p>
+        <p>Email: info.rggroup@gmail.com</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <p><a href="index.html" style="color:#00bfff;">Home</a> | <a href="about.html" style="color:#00bfff;">About</a> | <a href="contact.html" style="color:#00bfff;">Contact</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2000 - <span id="year3"></span> Rachel Agro Marketing</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year3").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

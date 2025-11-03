@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Rachel Agro Marketing</title>
+  <meta name="description" content="Contact Rachel Agro Marketing — address, phone and form to send a quick message via WhatsApp or Email." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="logo.png" alt="Rachel Agro Marketing" class="logo">
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <section class="page-intro">
+      <h1>Contact Us</h1>
+      <p class="lead">We’re here to help — reach out for quotes, technical support, or installations.</p>
+    </section>
+
+    <section class="contact-grid">
+      <div class="contact-card">
+        <h3>Address</h3>
+        <p>Plot No 1171 Scheme no 114 Opp Arihant Academy Vijay Nagar Indore, Madhya Pradesh - 452010</p>
+
+        <h3>Phone / WhatsApp</h3>
+        <p>9406651926 / 9977306982 / 7999972376</p>
+
+        <h3>Email</h3>
+        <p>info.rggroup@gmail.com<br>rejig57@gmail.com<br>rachel.rggroup@gmail.com</p>
+
+        <div class="contact-actions">
+          <a class="btn btn-whatsapp" id="whatsappBtn" href="#" target="_blank">Message on WhatsApp</a>
+          <a class="btn" id="emailBtn" href="#">Send Email</a>
+        </div>
+      </div>
+
+      <div class="contact-card form-card">
+        <h3>Send a quick message</h3>
+        <form id="contactForm">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" required>
+
+          <label for="company">Company (optional)</label>
+          <input id="company" name="company">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send via Email</button>
+            <button type="button" id="sendWhatsApp" class="btn btn-whatsapp">Send via WhatsApp</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="logo.png" alt="Rachel Agro Marketing" class="footer-logo" />
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Phone / WhatsApp: 9406651926 / 9977306982 / 7999972376</p>
+        <p>Email: info.rggroup@gmail.com</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="services.html">Services</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2000 - <span id="year4"></span> Rachel Agro Marketing</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
